@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfólio - Rodrigo Santana</title>
+  <script src="../src/js/script.js"></script>
   <link rel="stylesheet" href="../src/css/style.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
     <section class="hero">
       <h1>Rodrigo Santana Matos</h1>
       <p>Desenvolvedor em formação</p>
-      <button>Ver projetos</button>
+      <button onclick="scrollToProjects()">Ver projetos</button>
     </section>
 
     <section class="about">
@@ -58,6 +59,20 @@
 
       </div>
 
+    </section>
+
+    <section class="projects" id="projects">
+  <h2>Projetos</h2>
+
+  <div class="projects-container">
+
+    <div class="project-card">
+      <h3>Quiz Educacional</h3>
+      <p>Sistema de quizzes com Node.js e MySQL.</p>
+      <button>Ver projeto</button>
+    </div>
+    
+  </div>
     </section>
 
   </main>
