@@ -1,14 +1,43 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-}
-
-.hero {
-  height: 100vh;
   background: #0f172a;
   color: white;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* ABOUT */
+.about {
+  padding: 40px;
+}
+
+.about-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-info, .about-description {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* TECNOLOGIAS */
+.tech-list {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.tech-list img {
+  width: 50px;
+  height: 50px;
 }
