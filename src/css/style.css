@@ -89,19 +89,36 @@ p {
 .project-card {
   background: #1f2937;
   padding: 20px;
-  border-radius: 10px;
-  width: 250px;
+  border-radius: 12px;
+  width: 260px;
   transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
 }
 
-.project-card h3 {
-  margin-bottom: 10px;
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
 }
 
+.project-links a {
+  text-decoration: none;
+  background: #3b82f6;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.project-links a:hover {
+  background: #2563eb;
+}
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
